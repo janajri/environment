@@ -1,4 +1,4 @@
-FROM derjudge/archlinux
+FROM base/archlinux
 ENV user dax
 
 RUN useradd -m $user
