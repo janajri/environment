@@ -172,6 +172,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id google-chrome-stable
 exec --no-startup-id slack
 exec --no-startup-id compton
+exec --no-startup-id ~/.i3/workspace.sh
 
 # Workspace
 assign [class="Slack"] 1

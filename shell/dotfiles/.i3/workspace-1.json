@@ -1,0 +1,102 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.3,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2139,
+               "width": 1055,
+               "x": 0,
+               "y": 21
+            },
+            "name": "Slack - strange-loop",
+            "percent": 0.6,
+            "swallows": [
+               {
+                  "class": "^Slack$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 720,
+               "width": 1280,
+               "x": 3200,
+               "y": 720
+            },
+            "name": "Plex",
+            "percent": 0.4,
+            "swallows": [
+               {
+                   "class": "^Google\\-chrome$",
+                   "instance": "^crx_fpniocchabmgenibceglhnfeimmdhdfm$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 0.7,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2139,
+               "width": 1664,
+               "x": 2176,
+               "y": 21
+            },
+            "name": "New Tab - Google Chrome",
+            "percent": 0.65,
+            "swallows": [
+               {
+                  "class": "^Google\\-chrome$",
+                  "instance": "^google\\-chrome$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 460,
+               "width": 724,
+               "x": 0,
+               "y": 0
+            },
+            "name": "zsh",
+            "percent": 0.35,
+            "swallows": [
+               {
+                   "class": "^URxvt$",
+                   "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
