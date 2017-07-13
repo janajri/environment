@@ -13,18 +13,26 @@ link() {
 
 sudo pacman -Ssy
 
-# configs
+# home
 shopt -s dotglob
+for file in $PWD/home/*; do
+	name=${file##*/}
+	link home/$name $name
+done
+
+# configs
+mkdir -p $HOME/.config
 for file in $PWD/config/*; do
 	name=${file##*/}
-	link config/$name $name
+	link config/$name .config/$name
 done
 
 
 # Setup i3
 sudo pacman -S --noconfirm i3-wm
 sudo pacman -S --noconfirm xorg-server
-# sudo pacman -S --noconfirm xinit
+sudo pacman -S --noconfirm xinit
+sudo pacman -S --noconfirm compton
 
 # Setup terminal
 sudo pacman -S --noconfirm rxvt-unicode
