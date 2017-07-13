@@ -31,7 +31,8 @@ done
 # Setup i3
 sudo pacman -S --noconfirm i3-wm
 sudo pacman -S --noconfirm xorg-server
-sudo pacman -S --noconfirm xinit
+sudo pacman -S --noconfirm xorg-xinit
+sudo pacman -S --noconfirm xorg-xrandr
 sudo pacman -S --noconfirm compton
 
 # Setup terminal
@@ -47,4 +48,3 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zs
 # Fonts
 yaourt -S consolas-font --noconfirm
 yaourt -S ttf-liberation --noconfirm
-
