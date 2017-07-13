@@ -2,3 +2,4 @@ HISTFILE=~/.zsh_history
 HISTSIZE=999999999
 SAVEHIST=$HISTSIZE
 setopt APPEND_HISTORY
+unsetopt share_history

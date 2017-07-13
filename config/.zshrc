@@ -50,7 +50,6 @@ plugins=(git autojump npm)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/go/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-7-oracle/db/bin:/usr/lib/jvm/java-7-oracle/jre/bin:/usr/local/go/bin:/opt/go/bin:/home/dharun/dev/go/bin:/opt/bin:/opt/node:/usr/local/go/bin:/usr/lib/jvm/java-7-oracle/bin:/usr/lib/jvm/java-7-oracle/db/bin:/usr/lib/jvm/java-7-oracle/jre/bin:/usr/local/go/bin:/opt/go/bin:/home/dharun/dev/go/bin:/opt/bin:/opt/node"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -81,10 +80,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 #
-unsetopt share_history
-for f in ~/dev/environment/shell/custom/*; do source $f; done
+for f in ~/dev/environment/custom/*; do source $f; done
 
 autoload -U promptinit
 promptinit
 setopt NO_BEEP
-

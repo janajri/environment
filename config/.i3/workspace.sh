@@ -17,3 +17,9 @@ i3-msg 'workspace 3; append_layout ~/.i3/workspace-3.json'
 i3-msg "workspace 3; exec urxvt -name ridehealth -e /usr/sbin/zsh -is eval 'cd $PROJECT'"
 i3-msg "workspace 3; exec urxvt -name ridehealth-console -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
 i3-msg "workspace 3; exec code $PROJECT;"
+
+PROJECT=~/dev/projects/kora/kora
+i3-msg 'workspace 4; append_layout ~/.i3/workspace-4.json'
+i3-msg "workspace 4; exec urxvt -e /usr/sbin/zsh -is eval 'cd $PROJECT'"
+i3-msg "workspace 4; exec urxvt -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace 4; exec code $PROJECT;"
