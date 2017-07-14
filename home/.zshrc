@@ -85,3 +85,9 @@ for f in ~/dev/environment/custom/*; do source $f; done
 autoload -U promptinit
 promptinit
 setopt NO_BEEP
+
+if [[ $1 == eval ]]
+then
+	"$@"
+	set --
+fi

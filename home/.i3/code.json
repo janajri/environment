@@ -9,7 +9,7 @@
        "x": 3840,
        "y": 21
     },
-    "name": "ridehealth — Visual Studio Code",
+    "name": "Visual Studio Code",
     "percent": 0.8,
     "swallows": [
        {
@@ -38,12 +38,11 @@
                "x": 0,
                "y": 0
             },
-            "name": "ridehealth-web-console",
+            "name": "zsh",
             "percent": 0.5,
             "swallows": [
                {
-                  "class": "^URxvt$",
-                  "instance": "^ridehealth\\-web\\-console$"
+                  "class": "^URxvt$"
                }
             ],
             "type": "con"
@@ -58,12 +57,11 @@
                "x": 0,
                "y": 0
             },
-            "name": "ridehealth-web",
+            "name": "zsh",
             "percent": 0.5,
             "swallows": [
                {
-                  "class": "^URxvt$",
-                  "instance": "^ridehealth\\-web$"
+                  "class": "^URxvt$"
                }
             ],
             "type": "con"
