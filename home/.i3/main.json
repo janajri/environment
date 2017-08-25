@@ -41,7 +41,8 @@
             "swallows": [
                {
                    "class": "^Google\\-chrome$",
-                   "instance": "^crx_fpniocchabmgenibceglhnfeimmdhdfm$"
+                   "instance": "^crx_dgfegkopblapenbpeonjpodeipapjehm$"
+
                }
             ],
             "type": "con"
@@ -92,7 +93,7 @@
             "swallows": [
                {
                    "class": "^URxvt$",
-                   "instance": "^urxvt$"
+                   "instance": "^global$"
                }
             ],
             "type": "con"
