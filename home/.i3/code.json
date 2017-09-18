@@ -13,8 +13,8 @@
     "percent": 0.8,
     "swallows": [
        {
-          "class": "^Code\\ \\-\\ Insiders$",
-          "instance": "^code\\ \\-\\ insiders$"
+          "class": "^Code$",
+          "instance": "^code$"
        }
     ],
     "type": "con"

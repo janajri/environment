@@ -4,3 +4,5 @@ export ATOM_HOME=~/.atom
 export PATH=$PATH:~/.npm/bin
 
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+export GOPATH=~/dev/go

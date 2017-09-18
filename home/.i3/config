@@ -157,9 +157,9 @@ bar {
 new_window pixel 0
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 5 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 5 -5% #decrease sound volume
-bindsym XF86AudioMute exec pactl set-sink-mute 1 toggle && pactl set-sink-mute 2 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec pavolume volup #increase sound volume
+bindsym XF86AudioLowerVolume exec pavolume voldown #decrease sound volume
+bindsym XF86AudioMute exec pavolume mutetoggle # mute sound
 #
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
