@@ -1,35 +1,40 @@
 #/bin/bash
-PROJECT=~/dev/projects/ridehealth/ridehealth-web
-i3-msg 'workspace 2; append_layout ~/.i3/code.json'
-i3-msg "workspace 2; exec code -w $PROJECT;"
-i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-i3-msg "workspace 2; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+WORKSPACE=2
+PROJECT=~/dev/projects/ridehealth/web
+i3-msg "workspace $WORKSPACE; append_layout ~/.i3/code.json"
+i3-msg "workspace $WORKSPACE; exec code -w $PROJECT;"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
 sleep 3
 
-PROJECT=~/dev/projects/ridehealth/ridehealth
-i3-msg 'workspace 3; append_layout ~/.i3/code.json'
-i3-msg "workspace 3; exec code -w $PROJECT;"
-i3-msg "workspace 3; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-i3-msg "workspace 3; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+WORKSPACE=3
+PROJECT=~/dev/projects/ridehealth/elixir
+i3-msg "workspace $WORKSPACE; append_layout ~/.i3/code.json"
+i3-msg "workspace $WORKSPACE; exec code -w $PROJECT;"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
 sleep 3
 
-PROJECT=~/dev/projects/airfind/airfind-base
-i3-msg 'workspace 4; append_layout ~/.i3/code.json'
-i3-msg "workspace 4; exec code -w $PROJECT;"
-i3-msg "workspace 4; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-i3-msg "workspace 4; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-sleep 3
-
+WORKSPACE=4
 PROJECT=~/dev/projects/kora/kora
-i3-msg 'workspace 5; append_layout ~/.i3/code.json'
-i3-msg "workspace 5; exec code -w $PROJECT;"
-i3-msg "workspace 5; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-i3-msg "workspace 5; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; append_layout ~/.i3/code.json"
+i3-msg "workspace $WORKSPACE; exec code -w $PROJECT;"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
 sleep 3
 
+WORKSPACE=5
+PROJECT=~/dev/projects/clank/clank
+i3-msg "workspace $WORKSPACE; append_layout ~/.i3/code.json"
+i3-msg "workspace $WORKSPACE; exec code -w $PROJECT;"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+sleep 3
+
+WORKSPACE=6
 PROJECT=~/dev/projects/ironbay/website
-i3-msg 'workspace 6; append_layout ~/.i3/code.json'
-i3-msg "workspace 6; exec code -w $PROJECT;"
-i3-msg "workspace 6; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
-i3-msg "workspace 6; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; append_layout ~/.i3/code.json"
+i3-msg "workspace $WORKSPACE; exec code -w $PROJECT;"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
+i3-msg "workspace $WORKSPACE; exec urxvt -name code -e /usr/sbin/zsh -is eval 'cd $PROJECT';"
 sleep 3

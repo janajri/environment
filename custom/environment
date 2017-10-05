@@ -6,3 +6,5 @@ export PATH=$PATH:~/.npm/bin
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 export GOPATH=~/dev/go
+
+export EDITOR=/usr/bin/vim

@@ -170,6 +170,7 @@ for_window [class="google-chrome"] border none
 # Startup
 exec --no-startup-id nm-applet
 exec --no-startup-id compton
-exec --no-startup-id ~/.i3/default
+exec --no-startup-id dunst
+exec --no-startup-id ~/.i3/main
 
 # Media
