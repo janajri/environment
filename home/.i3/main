@@ -3,7 +3,7 @@
 i3-msg "workspace 1; append_layout ~/.i3/main.json;"
 i3-msg "workspace 1; exec firefox-developer;"
 i3-msg "workspace 1; exec slack;"
-i3-msg "workspace 1; exec google-chrome-stable --profile-directory=Default --app-id=dgfegkopblapenbpeonjpodeipapjehm;"
+i3-msg "workspace 1; exec google-chrome-stable"
 i3-msg "workspace 1; exec urxvt -name global;"
 
 i3-msg "workspace 10; exec enpass"
