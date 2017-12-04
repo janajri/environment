@@ -9,3 +9,7 @@ cd() {
 destroy() {
 	ps aux -W | grep $1 | awk '{print $2}' | xargs kill
 }
+
+epoch() {
+  date -d @$(($1 / 1000))
+}
